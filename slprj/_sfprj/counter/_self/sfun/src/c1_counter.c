@@ -504,10 +504,10 @@ static void init_dsm_address_info(SFc1_counterInstanceStruct *chartInstance)
 /* SFunction Glue Code */
 void sf_c1_counter_get_check_sum(mxArray *plhs[])
 {
-  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(2921350348U);
-  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(292985563U);
-  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(2432392382U);
-  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(1643592313U);
+  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(2118284282U);
+  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(2896825645U);
+  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(2743703981U);
+  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(1907431585U);
 }
 
 mxArray *sf_c1_counter_get_autoinheritance_info(void)
@@ -755,7 +755,7 @@ static void chart_debug_initialization(SimStruct *S, unsigned int
 
 static const char* sf_get_instance_specialization()
 {
-  return "FCwBrZxENuxb0CQFae455F";
+  return "6Z2cbkDD73fKLaQUWpHuLB";
 }
 
 static void sf_opaque_initialize_c1_counter(void *chartInstanceVar)
@@ -906,10 +906,10 @@ static void mdlSetWorkWidths_c1_counter(SimStruct *S)
   }
 
   ssSetOptions(S,ssGetOptions(S)|SS_OPTION_WORKS_WITH_CODE_REUSE);
-  ssSetChecksum0(S,(1317633570U));
-  ssSetChecksum1(S,(1354595912U));
-  ssSetChecksum2(S,(3424937197U));
-  ssSetChecksum3(S,(2172199233U));
+  ssSetChecksum0(S,(3689098130U));
+  ssSetChecksum1(S,(2170480153U));
+  ssSetChecksum2(S,(2251348101U));
+  ssSetChecksum3(S,(3119452180U));
   ssSetmdlDerivatives(S, NULL);
   ssSetExplicitFCSSCtrl(S,1);
   ssSupportsMultipleExecInstances(S,1);
